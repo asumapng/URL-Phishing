@@ -9,7 +9,7 @@ The model built is a random forest model. It provided an accuracy of 96% on the 
 A pickle file of the same is compressed and used for model deployment.
 
 
-You can use the web application here: 
+Use the web application: 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://url-phishing-detector-using-ml-suma-srushti.streamlit.app)
 
 
