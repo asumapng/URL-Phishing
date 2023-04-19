@@ -13,5 +13,8 @@ A pickle file of the same is compressed and used for model deployment.
 You can use the web application here:
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://url-phishing-detector-using-ml-suma-srushti.streamlit.app)
 
-You can connect with me on linked in here: 
-![[image](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]({www.linkedin.com})
+You can connect with me on linkedIn here: 
+[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/suma-nadakkannu1711)
+
+You can connect with me on GitHub here: 
+[![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/asumapng)
