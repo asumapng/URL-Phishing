@@ -219,6 +219,15 @@ def add_slash_to_url(url):
             url += '/'
     return url
 
+import requests
+def valid_link(url):
+    try:
+        page = requests.get(url)
+        response_code = str(page.status_code) # Get the response code of given URL
+        return 1
+    except:
+        return 0
+ 
 # final extraction
 data = pd.DataFrame()
 def extract(url):
@@ -360,12 +369,12 @@ with st.form("my_form"):
 
 if submitted:
     if url == "":
-        phish = "PLEASE PASTE THE LINK TO PROCEED"
+        phish = "PLEASE PASTE THE LINK TO PROCEED."
         st.warning(phish)
     
     else: 
-        a = uri_validator(url)
-        if a == True:
+        a = valid_link(url)
+        if a == 1:
             try:
                 result = extract(url)
                 if result == 1:
@@ -373,16 +382,16 @@ if submitted:
                     st.error(phish)
                 else:
                    if result == 0:
-                       phish = "THIS IS A SAFE URL"
+                       phish = "THIS IS A SAFE URL."
                        st.success(phish)
                    else: 
-                       phish = "PLEASE ENTER A VALID LINK"
+                       phish = "PLEASE ENTER A VALID LINK."
                        st.warning(phish) 
             except:
                  phish = "ENTER A VALID LINK"
                  st.warning(phish)
         else:
-            phish = "THE ABOVE ENTERED IS NOT AN URL"
+            phish = "THE ABOVE ENTERED IS A BROKEN LINK OR MAY NOT BE AN URL. PLEASE ENTER A VALID URL."
             st.warning(phish)
        
 
