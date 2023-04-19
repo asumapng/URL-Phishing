@@ -21,7 +21,7 @@ st.markdown(
 )
 #st.caption("Image source : Webroot.com")
 
-pic = Image.open('D:\Sem6_Project\Codes\webapp_streamlit\icon.png', mode = 'r', formats = None)
+pic = Image.open('icon.png', mode = 'r', formats = None)
 
 st.markdown("<h2 style='color: #727CDC;'> &#128051 What is Phishing? </h2>", unsafe_allow_html=True)
 
@@ -46,7 +46,7 @@ st.write("")
 header("\n .")
 st.markdown("<h2 style='color: #727CDC;'> &#8986  Phishing Process </h2>", unsafe_allow_html=True)
 
-pic = Image.open('D:\Sem6_Project\Codes\webapp_streamlit\phishingprocess.png', mode = 'r', formats = None)
+pic = Image.open('phishingprocess.png', mode = 'r', formats = None)
 st.image(pic, caption = "Phishing attack done is usually done through spamming phishing links to victims.")
 
 st.write("")
@@ -103,7 +103,7 @@ with st.expander("Google and Microsoft, along with the regional cybersecurity bo
          
         
         import base64
-        file_ = open('D:\Sem6_Project\Codes\webapp_streamlit\microsoft_phishing.gif', 'rb')
+        file_ = open('microsoft_phishing.gif', 'rb')
         contents = file_.read()
         data_url = base64.b64encode(contents).decode("utf-8")
         file_.close()
@@ -121,7 +121,7 @@ with st.expander("Google and Microsoft, along with the regional cybersecurity bo
                  - Click **Report Phishing.**""")
         
         import base64
-        file_ = open('D:\Sem6_Project\Codes\webapp_streamlit\google report.gif', 'rb')
+        file_ = open('google report.gif', 'rb')
         contents = file_.read()
         data_url = base64.b64encode(contents).decode("utf-8")
         file_.close()
