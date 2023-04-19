@@ -9,12 +9,14 @@ The model built is a random forest model. It provided an accuracy of 96% on the 
 A pickle file of the same is compressed and used for model deployment.
 
 
-
+<hr>
 You can use the web application here:
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://url-phishing-detector-using-ml-suma-srushti.streamlit.app)
 
 You can connect with me here:
-</br>
+<br>
+<br>
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suma-nadakkannu1711/)
+<br>
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/asumapng)
 
