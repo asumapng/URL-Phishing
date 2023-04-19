@@ -14,7 +14,8 @@ You can use the web application here:
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://url-phishing-detector-using-ml-suma-srushti.streamlit.app)
 
 You can connect with me on linkedIn here: 
-[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/suma-nadakkannu1711)
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suma-nadakkannu1711/)
 
 You can connect with me on GitHub here: 
-[![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/asumapng)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/asumapng)
+
