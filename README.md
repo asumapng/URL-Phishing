@@ -2,8 +2,11 @@
 
 
 <h3> 
-  We are Suma and Srushti, students of Mount Carmel College, Autonomous, Bangalore. We are in our final year of Bachelor's in Vocation (Data Science and Analytics) course. This website is our final semester project. We are working on building a URL phishing detector tool using AI/ML Techniques and creating a web application for public use.
+  I am Suma. A data science and analytics student pursuing her final year of Bachelor's in Vocation course. This website is my final semester project. The objectives of the project are building a URL phishing detector tool using AI/ML Techniques and creating a web application for public use.
 </h3>
+
+The model built is a random forest model. It provided an accuracy of 96% on the test data. It was highest compared to 8 other models that were built and compared. 
+A pickle file of the same is compressed and used for model deployment.
 
 
 
