@@ -213,12 +213,16 @@ def query(self):
     o = urllib.parse.urlsplit(url)
     return len(o.query)
 
-# final extraction
+def add_slash_to_url(url):
+    if re.search(r'\.[a-zA-Z]{2,}$', url):  # Check if TLD is present in URL
+        if url[-1] != '/':
+            url += '/'
+    return url
 
 # final extraction
 data = pd.DataFrame()
 def extract(url):
-    link = url
+    link = add_slash_to_url(url)
     data = pd.DataFrame([link], columns = ['url'])
     data['url']=data['url'].astype(str)
     data['count-https'] = data['url'].apply(lambda i : i.count('https'))
