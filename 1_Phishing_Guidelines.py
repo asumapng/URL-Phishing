@@ -10,7 +10,7 @@ st.markdown("<h1 style='text-align: center; color: #727CDC;'>A GUIDE TO UNDERSTA
 st.markdown('<p style="text-align: center; background-color:#727CDC;color:#000000;font-size:1px;border-radius:2%;"><b>.</p>', unsafe_allow_html=True)
 
 import base64
-file_ = open('D:\Sem6_Project\Codes\webapp_streamlit\phishing_banner.gif', 'rb')
+file_ = open('phishing_banner.gif', 'rb')
 contents = file_.read()
 data_url = base64.b64encode(contents).decode("utf-8")
 file_.close()
