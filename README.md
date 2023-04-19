@@ -1,12 +1,11 @@
 # URL-Phishing
 
 
-<h3> 
-  I am Suma. A data science and analytics student pursuing her final year of Bachelor's in Vocation course. This website is my final semester project. The objectives of the project are building a URL phishing detector tool using AI/ML Techniques and creating a web application for public use.
-</h3>
+
+I am Suma. A data science and analytics student pursuing her final year of Bachelor's in Vocation course. This website is my final semester project. The objectives of the project are building a URL phishing detector tool using AI/ML Techniques and creating a web application for public use.
 
 The model built is a random forest model. It provided an accuracy of 96% on the test data. It was highest compared to 8 other models that were built and compared. 
-A pickle file of the same is compressed and used for model deployment.
+Streamlit is used for web application development.
 
 
 Use the web application: 
