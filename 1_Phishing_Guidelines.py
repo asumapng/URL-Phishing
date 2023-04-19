@@ -137,7 +137,7 @@ st.subheader("3. Be updated with the recent trends in phishing attacks")
 pressed = st.button('**CLICK TO READ THE RECENT STATISTICS AND REPORTS**', 
                     use_container_width=True)
 if pressed:
-   nav_to('http://localhost:8501/Additional_Reading')
+   nav_to('https://url-phishing-detector-using-ml-suma-srushti.streamlit.app/Additional_Reading')
 
 #######################
 st.write("")
@@ -151,7 +151,7 @@ st.write("""
 pressed = st.button('**CLICK TO USE PHISHING DETECTION TOOL**', 
                     use_container_width=True, type = 'primary')
 if pressed:
-   nav_to('http://localhost:8501/Phishing_URL_Detection_Tool')
+   nav_to('https://url-phishing-detector-using-ml-suma-srushti.streamlit.app/Phishing_URL_Detection_Tool')
 
 st.write("")
 st.write("")
