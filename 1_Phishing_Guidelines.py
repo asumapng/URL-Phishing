@@ -1,5 +1,6 @@
 import streamlit as st
 from PIL import Image
+
 st.set_page_config(page_title = 'Phishing Guidelines', page_icon =":fish:", initial_sidebar_state  = "expanded")
 
 def header(url):
@@ -10,7 +11,7 @@ st.markdown("<h1 style='text-align: center; color: #727CDC;'>A GUIDE TO UNDERSTA
 st.markdown('<p style="text-align: center; background-color:#727CDC;color:#000000;font-size:1px;border-radius:2%;"><b>.</p>', unsafe_allow_html=True)
 
 import base64
-file_ = open('phishing_banner.gif', 'rb')
+file_ = open('https://raw.githubusercontent.com/asumapng/URL-Phishing/master/phishing_banner.gif', 'rb')
 contents = file_.read()
 data_url = base64.b64encode(contents).decode("utf-8")
 file_.close()
