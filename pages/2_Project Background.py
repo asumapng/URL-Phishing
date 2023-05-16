@@ -54,4 +54,4 @@ def nav_to(url):
     st.write(nav_script, unsafe_allow_html=True)
     
 if pressed:
-   nav_to('https://url-phishing-detector-using-ml-suma-srushti.streamlit.app/Phishing_URL_Detection_Tool')
+   nav_to('https://phishingdetectionforurls.streamlit.app/Phishing_URL_Detection_Tool')
